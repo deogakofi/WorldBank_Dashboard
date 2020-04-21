@@ -27,10 +27,13 @@ Installation
 
 
 ### Install the requirements
-
-* Install the requirements using `pip install -r requirements.txt`.
-    * Make sure you use Python 3.
-* `cd` to the location of myapp.py
+* For mac please ensure you have xcode or download it from the app store (probably not needed)
+* From your CLI install homebrew using `/usr/bin/ruby -e "$(curl -fsSL https:/raw.githubusercontent.com/Homebrew/install/master/install)"`
+* After installing homebrew successfully, install python3 using `brew install python3`
+* Check python3 installed correctly using `python3 --version` and this should return python3 version
+* Install the requirements using `pip3 install -r requirements.txt`.
+    * Make sure you use Python 3
+* `cd` to the location of myapp.py (should be located in parent folder)
 * Execute `python3 myapp.py`
 * Follow the information printed in your environment to the site. Usually 0.0.0.0:3001 or localhost:3001
 
@@ -43,6 +46,8 @@ If you want to extend this work, here are a few places to start:
 * Include more indicators in the  dataset
 * Include more graphs
 * Improve HTML layout and introduce filters to graphs using ginger
+
+
 
 
 
